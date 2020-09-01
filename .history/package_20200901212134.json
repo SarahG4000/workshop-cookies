@@ -1,0 +1,19 @@
+{
+  "name": "@sarahg4000/workshop-cookies",
+  "version": "1.0.0",
+  "description": "utilisation des cookies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SarahG4000/workshop-cookies.git"
+  },
+  "author": "SarahG4000",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SarahG4000/workshop-cookies/issues"
+  },
+  "homepage": "https://github.com/SarahG4000/workshop-cookies#readme"
+}
