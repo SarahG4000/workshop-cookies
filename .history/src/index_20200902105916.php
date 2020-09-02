@@ -22,9 +22,7 @@ include './php/cookies.php'; ?>
         </p>
 
 
-        <!-- <?php
-//HelloWorld();
-?> -->
+        <?php HelloWorld(); ?>
     </div>
     <script src="./javasscript/cookies.js"></script>
 

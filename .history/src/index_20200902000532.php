@@ -14,17 +14,13 @@ include './php/cookies.php'; ?>
     <div id="app">
         <button id="run">Run</button>
 
-        <input type="text" id="creatin"  />
-        <p>
-        <button id="creat">Créer cookie 1</button><br>
-        <button id="read">Lire cookie 1</button><br>
-        <button id="delete">Supprimer cookie 1</button>
-        </p>
+        <input type="text" value="cookievalue" />
+        <p><a href="javascript:saveIt('ppkcookie1')" class="page">Créer cookie 1</a><br>
+        <a href="javascript:readIt('ppkcookie1')" class="page">Lire cookie 1</a><br>
+        <a href="javascript:eraseIt('ppkcookie1')" class="page">Supprimer cookie 1</a></p>
 
 
-        <!-- <?php
-//HelloWorld();
-?> -->
+        <?php HelloWorld(); ?>
     </div>
     <script src="./javasscript/cookies.js"></script>
 
